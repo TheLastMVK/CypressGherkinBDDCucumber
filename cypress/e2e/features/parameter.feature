@@ -1,5 +1,5 @@
-Feature: Busqueda en google
-Scenario: Buscar producto en Google
-Given Ingreso a la web de google
-When Busco la palabra "laptop"
+Feature: busqueda en google
 
+Scenario: buscar producto en google
+Given Ingreso a la web de google
+When busco la palabra "reddit"

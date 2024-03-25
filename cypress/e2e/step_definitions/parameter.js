@@ -5,7 +5,6 @@ Given('Ingreso a la web de google', () => {
   cy.visit(url)
 })
 
-When('Busco la palabra {string}', (product) => {
-    cy.get('#APjFqb').type(product)
+When('busco la palabra {string}', (product) => {
+    cy.get("#APjFqb").type(product)
   })
-  
